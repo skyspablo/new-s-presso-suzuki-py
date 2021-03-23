@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.banner{
+    margin: 0 auto;
+    width: 1200px;
+    height: 1200px;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: white;
+    box-shadow:
+            1px 0 0 rgba(0,0,0,.3),
+            -1px 0 0 rgba(0,0,0,.3);
+}
+
+.container{
+    width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow:
+            1px 0 0 rgba(0,0,0,.3),
+            -1px 0 0 rgba(0,0,0,.3);
+}
+.np{
+    padding:0;
+}
+
+.suzuki-badge img{
+    width: 120px;
+}
+.spresso-logo{
+    margin: 30px 30px 0 0;
+
+}
+.spresso-logo:after{
+    clear: both;
+}
+.spresso-logo img{
+    display: block;
+    float: right;
+}
+.spresso-logo img.main-spresso{
+    height: 80px;
+}
+
+.spresso-logo img.suv-compacto{
+    margin-top: 10px;
+    height: 52px;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuotas{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+}
+
+.cuotas img{
+    width: 350px;
+}
+.cuotas .corridas{
+    margin-top: 20px;
+    background: #004780;
+    padding: 15px 30px;
+    border-radius: 90px 20px 90px 20px;
+}
+.cuotas .corridas img{
+    width: 350px;
+}
+
+.white{
+    background: white;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+
+}
+.hasoverlay{
+    padding-bottom: 180px;
+}
+.item p{
+    font-size: 1.6rem;
+    color:#666;
+    margin-bottom: 40px;
+}
+.item img{
+    max-width: 100%;
+}
+img.personas{
+    width: 100%;
+}
+img.title{
+    max-height: 60px;
+    margin-bottom: 40px;
+}
+section, .car-over{
+    position: relative;
+}
+.car-over{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 180px;
+    left: 65px;
+}
+.car-over img{
+    width: 70%;
+}
+
+section.especificaciones-section{
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    padding: 30px;
+    height: 1200px;
+}
+img.big-title{
+    max-height: 75px;
+    margin: 30px 0;
+}
+.grid-3{
+    display: flex;
+    justify-content: space-between;
+
+}
+.grid-3 h2{
+    color: #004780;
+    min-height: 70px;
+}
+.grid-3 .item p{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: #004780;
+    text-align: justify;
+}
+
+.grid-3 .item{
+    width: 300px !important;
+}
+
+.descriptive-img{
+    width: 100%;
+}
+
+.colores{
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+    background-size: contain !important;
+    background-color:white !important;
+    height: 1100px;
+}
+.colores-title{
+    margin: 30px 30px 50px 30px;
+}
+.colores-grid-2{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.colores-grid-2 .item{
+    width: 350px;
+    text-align: center;
+}
+.colores-grid-3{
+    display: flex;
+    justify-content: space-around;
+}
+.colores-grid-3 .item{
+    width: 350px;
+    text-align: center;
+}
+
+.colores-grid-3 .item p,
+.colores-grid-2 .item p{
+    font-size: 1.2rem;
+}
+img.main-title{
+    height: 80px;
+}
+img.sub-title{
+    height: 70px;
+}
+.form{
+    width: 800px;
+    margin: 80px auto 0 auto;
+}
+.half{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.footer{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    color:#666;
+    margin-top: 50px;
+    line-height: 1.5rem;
+}
+
+input{
+    background: #004780;
+    width: 100%;
+    height: 45px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding-left: 18px;
+    color:white;
+}
+input::placeholder{
+    color:white;
+}
+
+
+input[type='submit']{
+
+    width: 60%;
+    margin:  0 auto;
+    display: block;
+}
+input[type='submit']:hover{
+    background: #005499;
+    cursor: pointer;
+}
